@@ -89,7 +89,7 @@ function mostraAlternativas() {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativas.texto;
         caixaAlternativas.appendChild(botaoAlternativas);
-        botaoAlternativas.addEventListener("click", () => respostasSelecionada(alternativa));
+        botaoAlternativas.addEventListener("clik", () => respostasSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
