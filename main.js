@@ -46,7 +46,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: " Qual tipo de piscina voê prefere?",
+        enunciado: " Qual tipo de piscina você prefere?",
         alternativas: [
             {
                 texto: " Naturais",
@@ -74,3 +74,10 @@ const perguntas = [
 ];
 
 
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
