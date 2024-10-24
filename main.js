@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você está em duvida aonde passar o fim de semana.Devo ir para?",
+        enunciado: "Você está em duvida aonde passar o fim de semana. Devo ir para?",
         alternativas: [
             {
                 texto: " Um lugar traquilo",
@@ -105,6 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
     atual++;
     mostraPergunta();
 }
+
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049..."
     textoResultado.textContent = historiaFinal;
