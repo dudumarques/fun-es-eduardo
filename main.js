@@ -94,7 +94,7 @@ function mostraAlternativas() {
     }
 }
 
-function respostasSelecionada(opcaoSelecionada) {
+function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal = afirmacoes;
     atual++;
